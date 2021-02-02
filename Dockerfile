@@ -7,4 +7,4 @@ RUN mkdir -p /app; chown -R appuser:appgroup /app; chown -R appuser:appgroup /ap
 USER appuser
 RUN npm install
 EXPOSE 3000
-CMD ["node", "app.js"]
+CMD ["node", "index.js"]
