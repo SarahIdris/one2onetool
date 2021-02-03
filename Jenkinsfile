@@ -55,6 +55,7 @@ pipeline {
                     }
             }
         }
+		}
 		post { 
          success {  
              echo 'Staging branch ran successfully!'  
@@ -66,4 +67,3 @@ pipeline {
          }  
         }
     }
-}
