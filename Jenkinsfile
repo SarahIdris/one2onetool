@@ -10,7 +10,7 @@ pipeline {
         string(name: 'DATA_FILE', defaultValue: 'Questions-test.json', description: 'Data file for staging environment')
         string(name: 'RECIPIENT_EMAIL', defaultValue: 'sarah.mdidris@hotmail.com', description: 'Email address to receive notifications')
         string(name: 'GITHUB_REPO_URL', defaultValue: 'https://github.com/SarahIdris/one2onetool', description: 'URL of Github repo')
-        string(name: 'DOCKER_IMAGE', defaultValue: 'mdidris/one2onetool-stage', description: 'Name of docker image to create')
+        string(name: 'DOCKER_IMAGE', defaultValue: 'mdidris/one2onetool', description: 'Name of docker image to create')
         string(name: 'CONTAINER_NAME', defaultValue: 'one2onetool-stage', description: 'Docker container name to run')
 	 }
 	 triggers {
